@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+
+.scorekeeper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gamebox {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    border: 1px solid red;
+}
+
+.choices {
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+
+button {
+    padding: 20px;
+    font-size: 15px;
+    background-color: rgb(255, 0, 76);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s, font-size 0.3s;
+}
+
+button:active {
+    transform: scale(0.95);
+  }
+
+button:hover {
+    background-color: greenyellow;
+}
+
+#computerpicked {
+    margin-left: 20px;
+}
+
+#playerchoiceimg {
+    width: 100px;
+}
+
+#computerchoiceimg {
+    width: 100px;
+}
